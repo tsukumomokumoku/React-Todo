@@ -1,0 +1,31 @@
+/*
+共通
+*/
+body {
+  font-family: sans-serif;
+}
+.btn {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+.list-title {
+  margin-right: 8px;
+}
